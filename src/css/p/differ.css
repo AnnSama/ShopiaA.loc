@@ -1,0 +1,41 @@
+:root {
+    --header-bg: #f2f2f2;
+    --decoration-el: #525252;
+    --text-color: #393939;
+    --hover-link-color: #f09d66;
+    --social-media-color: #d9bf8f;
+    --black-color: #000;
+    --white-color: #fff;
+    --pseudoline-color: #eaeaea;
+    --sale-color: #feab12;
+    --job-color: #7f7e7e;
+    --footer-color: #141414;
+    --footer-text-color: #737373;
+    --form-border-color: #484848;
+    --form-button-color: #323030;
+
+    --pad5: 5px;
+    --pad10: 10px;
+    --pad15: 15px;
+    --pad20: 20px;
+    --pad30: 30px;
+    --pad35: 35px;
+    --pad50: 50px;
+    --pad60: 60px;
+    --pad70: 70px;
+
+    --font11: 11px;
+    --font12: 12px;
+    --font14: 14px;
+    --font16: 16px;
+    --font18: 18px;
+    --font20: 20px;
+    --font24: 24px;
+    --font30: 30px;
+    --font32: 32px;
+    --font60: 60px;
+
+    --header-triangle-width: 200px;
+    --slide-item-info-width: 260px;
+    --slide-button-width: 190px;
+}

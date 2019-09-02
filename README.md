@@ -1,0 +1,1 @@
+this shop belongs to Anna Samaryna

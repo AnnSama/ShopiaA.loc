@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts-slick/slick.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../fonts-slick/slick.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

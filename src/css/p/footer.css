@@ -1,0 +1,261 @@
+.main-footer {          /**/
+    position: relative;
+    max-width: calc(1290px + 2 * var(--pad15));
+    margin: 0 auto;
+    padding: 0 var(--pad15) var(--pad70);
+    color: var(--footer-text-color);
+    text-transform: capitalize;
+    font-size: var(--font14);
+    background-color: var(--footer-color);
+}
+
+.main-footer ul, .main-footer li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+.main-footer h3 {
+    margin-top: var(--pad70);
+    margin-bottom: var(--pad50);
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: var(--font16);
+    font-weight: bold;
+}
+
+.main-footer a:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.main-footer a:focus {
+    box-shadow: 0 0 0 4px var(--footer-color), 0 0 0 6px #00BFFF;
+}
+
+.main-footer::after {        /**/
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100vw;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+}
+
+.footer-nav {                  /**/   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: var(--pad70);
+}
+
+.footer-shops li:not(:last-child),
+.footer-info li:not(:last-child),
+.footer-service li:not(:last-child) {
+    padding-bottom: var(--pad15);
+}
+
+
+.social {
+    padding-right: 90px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-footer .footer-social li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer .footer-social li:not(:first-child) {
+    margin-left: var(--pad10);
+}
+
+.main-footer .footer-social a {
+    padding: var(--pad15);
+    border-radius: 50%;
+    background-color: var(--white-color);
+}
+
+.main-footer .footer-social a:hover,
+.main-footer .footer-social a:focus {
+    background-color: var(--footer-color);
+}
+
+.main-footer .footer-social a:hover svg,
+.main-footer .footer-social a:focus svg {
+    fill: var(--white-color);
+}
+
+.main-footer .footer-social svg {
+    fill: var(--black-color);
+    font-size: 25px;
+}
+
+.subscribe-form {
+    position: relative;
+    margin-top: var(--pad30);
+}
+.main-footer .subscribe-form fieldset {
+    border: none;
+}
+
+.main-footer .subscribe-form legend {
+    padding-bottom: var(--pad50);
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.main-footer .subscribe-form .custom {
+    font-family: 'Playfair Display', serif;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+.form-wrapper {
+    position: relative;
+}
+
+.main-footer .subscribe-form input {
+    padding: var(--pad15) 120px var(--pad15) var(--pad30);
+    width: 365px;
+    color: #fff;
+    border: 1px solid var(--form-border-color);
+    background-color: inherit;
+}
+
+.main-footer .subscribe-form:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px var(--footer-color), 0 0 0 6px #00BFFF;
+}
+
+.main-footer .subscribe-form button {
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 4px;
+    height: 40px;
+    width: 100px;
+    background-color: var(--form-button-color);
+    border: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.main-footer .subscribe-form button:hover {
+    cursor: pointer;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.main-footer .subscribe-form button:focus {
+     outline: none;
+     box-shadow: 0 0 0 4px var(--footer-color), 0 0 0 6px #00BFFF;
+}
+
+.main-footer .copyright {
+    display: block;
+    font-size: var(--font11);
+    line-height: 20px;
+    border-top: 1px solid var(--form-border-color);
+    text-transform: capitalize;
+}
+
+.main-footer::before {                /**/
+        content: '';
+        position: absolute;
+        bottom: 182px;
+        left: calc(50% - 13px);
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 13px 0 13px;
+        border-color: var(--form-border-color) transparent transparent transparent;
+}
+
+.pay-system svg {
+    margin-right: var(--pad30);
+    font-size: 40px;
+}
+
+.fill {
+    position: relative;
+    padding: var(--pad35);
+    background-color: var(--black-color);
+}
+
+.fill::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100vw;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: auto;
+    left: -50vw;
+    right: -50vw;
+}
+
+@media screen and (max-width: 480px) {
+    .main-footer {
+        padding-bottom: var(--pad10);
+    }
+    .main-footer .footer-shops, .main-footer .footer-info, .main-footer .footer-service {
+        display: none;
+    }
+
+    .main-footer::before {
+        bottom: 122px;
+    }
+
+    .main-footer .footer-social li:not(:first-child) {
+            margin-left: var(--pad5);
+        }
+
+    .main-footer .footer-social a {
+        padding: var(--pad5);
+        border-radius: 50%;
+        background-color: var(--white-color);
+     }
+
+    .main-footer .footer-social svg {
+        fill: var(--black-color);
+        font-size: 18px;
+     }
+
+    .social form input {
+        width: 290px;
+        padding-left: var(--pad10);
+    }
+
+    .main-footer h3 {
+        margin: var(--pad20) 0;
+    }
+
+    .subscribe-form fieldset {
+        padding: var(--pad10) 0;
+    }
+
+    .subscribe-form legend {
+        padding-bottom: var(--pad15);
+    }
+
+    .main-footer .footer-nav {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .main-footer {
+    }
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import "p/fonts.css";
+@import "p/normalize.css";
+@import "p/base.css";
+@import "p/differ.css";
+@import "p/catalog-section.css";
+@import "p/categories-section.css";
+@import "p/brands-section.css";
+@import "p/advantages-section.css";
+@import "p/feedback-section.css";
+@import "p/footer.css";
+@import "p/scroll-button.css";
+@import "p/header.css";
+@import "p/slick-dots.css";
+@import "p/slider-section.css";
+@import "p/slick.css";
+@import "p/slick-theme.css";

@@ -1,0 +1,23 @@
+.slick-dots{
+    bottom: 5%;/**/
+}
+
+.slick-dots li button:before {/**/
+    width: 15px;
+    height: 15px;
+    content: '';
+    background-color: #fff;
+    transform: rotate(45deg);
+    opacity: 0.4;
+}
+
+.slick-dots li.slick-active button:before {/**/
+    background-color: #000;
+    opacity: 1;
+}
+
+@media screen and (max-width: 480px) {   /*не работает!*/
+    .slick-dots, .slick-dots li {
+        display: none !important;
+    }
+}
